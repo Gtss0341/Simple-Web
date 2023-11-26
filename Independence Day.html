@@ -1,0 +1,125 @@
+<html>
+<head><title>Independence Day</title>
+<style>
+body {
+  height: 100%;
+  width: 100;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+img {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+h1{font-family: Edwardian Script ITC;position: relative;top: 0px;left: 250px;width: 1000px;height: 110px;background: transparent;text-align: center;font-size: 100px;}
+
+h1{
+animation: down 6s 1;
+animation-timing-function: ease-out;
+}
+
+@keyframes down {from{top: -150px;left: 250px;}
+to{top: 0px;left: 250px;}
+}
+
+.spinner{
+width:100px;
+height:100px;
+position:relative;
+left:1200px;
+top: -160px;
+border-right: 3px solid orange;
+border-left: 3px solid green;
+border-radius: 50%;
+ box-shadow: 5px 5px 20px 5px cyan;
+animation: spinner 2s infinite linear;
+}
+
+@keyframes spinner {
+0%{transform: rotate(0deg);}
+100%{transform: rotate(359deg);}
+}
+
+
+
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 850px;
+  height: 440px;
+  position: relative;
+  right: -500px;
+  top: -200px;
+  animation: slide 6s 1 linear;
+
+}
+
+@keyframes slide{ 0% {right: -1340px;opacity: 50%;}
+ 100% {right: -500px;opacity: 90%;}
+}
+
+.gradient-border {
+background: url(indian\ flag.jpg);
+}
+
+.gradient-border {
+  font-size: 55px;
+  height: 100%;width: 100%;background-repeat: no-repeat;background-size: cover;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 5px;
+  position: relative;
+  font-family: Edwardian Script ITC;
+  border: 10px solid #c5c6d0;
+  box-shadow: 10px 10px 50px 10px #82EEfD;
+  border-radius: 10px;
+}
+
+
+
+
+
+</style>
+
+<body background="background.jpg">
+
+
+<img id="1" src="ashoka chakra.png" width="450px" height="450px" style="position: relative;left: 12px;top: 158px;position: fixed">
+
+<h1><span style="text-shadow: 2px 2px 5px orange"> Happy</span><span style="text-shadow: 2px 2px 5px blue"> Independence</span><span style="text-shadow: 2px 2px 5px green"> Day</span> </h1>
+
+<div class="spinner">
+</div>
+<img id="1" src="ashoka chakra.png" width="95px" height="95px" style="position: relative;left: 1205px;top: -258px;">
+
+<div class="gradient-border" id="box"><b>
+
+
+<section style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fcae1e, 0 0 5px #fcae1e, 0 0 10px #fcae1e, 0 0 15px #fcae1e, 0 0 20px #fcae1e;
+">
+"As we move forward with<br> freewdom,<br><br></section>
+
+
+<section style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px blue, 0 0 5px blue, 0 0 10px blue, 0 0 15px blue, 0 0 20px blue;">
+ we should keep in mind freedom is harder<br><br></section>
+
+
+<section style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px lime, 0 0 5px lime, 0 0 10px lime, 0 0 15px lime, 0 0 20px lime;">
+ to protect than to earn."</section></b></div>
+
+
+
+
+</body>
+</html>

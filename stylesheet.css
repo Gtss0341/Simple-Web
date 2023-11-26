@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+.head {
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+    background-color: orange;
+    border-top: 5px solid gold;
+    width: 900px;
+    align-content: center;
+    position: relative;
+    left: 20%;
+    animation: color 2s infinite ease;
+}
+@keyframes color{
+    0%{
+        color: white;
+    }
+    33%{
+        color: blue;
+    }
+    66%{
+        color: limegreen;
+    }
+    100%{
+        color: white;
+    }
+}
+ .head1{
+    color: white;
+    position: relative;
+    left: 1000px;
+    font-size: 40px;
+    font-family: cursive;
+ }
+ 
+ img{
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+    left: 50%;
+    background-color: transparent;
+ }
